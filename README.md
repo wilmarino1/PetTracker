@@ -102,11 +102,12 @@ PawTracker/
 - [ ] Core Data model implementation
 - [ ] Basic CRUD operations for dogs
 - [ ] Health tracking features
-- [ ] Activity logging with GPS
+- [ ] Activity logging with GPS (uber future)
 - [ ] Nutrition tracking
 - [ ] Dashboard with charts
 - [ ] Reminder notifications
 - [ ] Photo attachments
+- [ ] Friend and Activity challenges
 - [ ] Data export functionality
 - [ ] CloudKit synchronization
 - [ ] Apple Watch companion app

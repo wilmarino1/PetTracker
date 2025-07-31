@@ -19,14 +19,14 @@ struct ContentView: View {
                 }
                 .tag(0)
             
-            ActivityView()
+            ActivityView() //Set goals and 
                 .tabItem {
                     Image(systemName: "figure.walk.circle")
                     Text("Activity")
                 }
                 .tag(1)
             
-            HealthNutritionView()
+            HealthNutritionView() // merge with Health record
                 .tabItem {
                     Image(systemName: "heart.circle")
                     Text("Health & Nutrition")
@@ -36,16 +36,9 @@ struct ContentView: View {
             HealthRecordView()
                 .tabItem {
                     Image(systemName: "doc.text.circle")
-                    Text("Health Record")
-                }
-                .tag(3)
-            
-            ProfileCard()
-                .tabItem {
-                    Image(systemName: "person.circle")
                     Text("Profile")
                 }
-                .tag(4)
+                .tag(3)
         }
         .accentColor(.orange)
     }

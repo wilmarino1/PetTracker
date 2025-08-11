@@ -92,37 +92,6 @@ struct HomeView: View {
                         }
                     }
                     
-                    // MARK: – Pet Profile (quick view)
-                    VStack(alignment: .leading, spacing: 16) {
-                        SectionHeader(
-                            title: "Pet Profile",
-                            subtitle: nil,
-                            systemImage: "pawprint.circle.fill",
-                            imageColor: .brown
-                        )
-                        
-                        LazyVGrid(
-                            columns: [
-                                GridItem(.flexible()),
-                                GridItem(.flexible())
-                            ],
-                            spacing: 16
-                        ) {
-                            ProfileCard(
-                                title: "Name",
-                                value: "Buddy",
-                                icon: "person.fill",
-                                color: .indigo
-                            )
-                            ProfileCard(
-                                title: "Age",
-                                value: "3 years",
-                                icon: "calendar",
-                                color: .teal
-                            )
-                        }
-                    }
-                    
                     Spacer(minLength: 100)
                 }
                 .padding(.top)
